@@ -1,0 +1,7 @@
+[GIN-debug] GET    /api/posts                --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /api/posts                --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /view/videos              --> github.com/jatinsaini25/gin-http-poc/controllers.VideoController.ShowAll-fm (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8000
+::1 - [13 Aug 20 06:28 EDT] POST /api/posts 200 24.2285ms 
+::1 - [13 Aug 20 06:28 EDT] POST /api/posts 200 25.759ms 
+::1 - [13 Aug 20 06:28 EDT] GET /api/posts 200 69.183ms 
